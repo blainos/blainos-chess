@@ -243,7 +243,7 @@ public class Chess extends Application {
             stack.getChildren().add(new Rectangle(ELIM_SIZE,ELIM_SIZE,dark));
         }
 
-        String path = "icons/";
+        String path = "chess/icons/";
         e1 = new Image(new FileInputStream(path + "elim_1.png"));
         e2 = new Image(new FileInputStream(path + "elim_2.png"));
         e3 = new Image(new FileInputStream(path + "elim_3.png"));
@@ -485,16 +485,16 @@ public class Chess extends Application {
 
         int replayButtonSize = 15;
 
-        replay_beginning = new Image(new FileInputStream("icons/replay_beginning.png"));
+        replay_beginning = new Image(new FileInputStream("chess/icons/replay_beginning.png"));
         beginning = new ImageView(replay_beginning);
-        replay_previous = new Image(new FileInputStream("icons/replay_previous.png"));
+        replay_previous = new Image(new FileInputStream("chess/icons/replay_previous.png"));
         previous = new ImageView(replay_previous);
-        replay_next = new Image(new FileInputStream("icons/replay_next.png"));
+        replay_next = new Image(new FileInputStream("chess/icons/replay_next.png"));
         next = new ImageView(replay_next);
-        replay_end = new Image(new FileInputStream("icons/replay_end.png"));
+        replay_end = new Image(new FileInputStream("chess/icons/replay_end.png"));
         end = new ImageView(replay_end);
-        replay_play = new Image(new FileInputStream("icons/replay_play.png"));
-        replay_pause = new Image(new FileInputStream("icons/replay_pause.png"));
+        replay_play = new Image(new FileInputStream("chess/icons/replay_play.png"));
+        replay_pause = new Image(new FileInputStream("chess/icons/replay_pause.png"));
         play_pause = new ImageView(replay_play);
         beginning.setOpacity(0.0);
         beginning.setFitWidth(replayButtonSize);

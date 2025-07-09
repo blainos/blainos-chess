@@ -95,7 +95,7 @@ public class ChessBoard extends GridPane {
     }
 
     private void initializePieceImages() throws FileNotFoundException {
-        String path = "icons/";
+        String path = "chess/icons/";
         String white = "white";
         String black = "black";
         white_king = new Image(new FileInputStream(path + white + "_king.png"));
