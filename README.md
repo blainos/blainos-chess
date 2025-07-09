@@ -2,6 +2,8 @@
 Chess app for PC made using JavaFX
 Personal project by Blaine Jones for learning object-oriented programming and GUI design. 
 
+<img src="chess/screenshots/playing_game.gif" alt="GIF of Chess gameplay" width="500"/>
+
 ## Capabilities
 Two player local game of chess, with all rules of standard chess implemented and enforced, including:
 - En passant
@@ -14,9 +16,14 @@ Captured pieces are shown on the side.
 
 Moves are recorded in a sidebar in standard notation.
 
-Games can be saved using the PGN file format. Games in PGN format can be loaded in. 
+Games can be saved using the PGN file format. Games in PGN format can be loaded in.
+Below is an example, with the loaded PGN file of the 29th game of the 1992 match played in Yugoslavia between Bobby Fischer and Boris Spassky:
+
+<img src="chess/screenshots/loaded_game.jpg" alt="Screenshot of Chess Game window after loading saved game" width="400"/>
 
 Play/Fast Forward/Rewind buttons allow for loaded games to be "replayed", move by move. Technically can also act as undo button. Might be buggy.
+
+<img src="chess/screenshots/using_play_buttons.gif" alt="GIF of player using play button, rewind button, and fast-forward button" width="400"/>
 
 ## Explaining It All
 ### Chess.java
