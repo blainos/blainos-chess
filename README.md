@@ -1,5 +1,6 @@
 # blainos-chess
 Chess app for PC made using JavaFX
+
 Personal project by Blaine Jones for learning object-oriented programming and GUI design. 
 
 <img src="chess/screenshots/playing_game.gif" alt="GIF of Chess gameplay" width="500"/>
